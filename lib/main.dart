@@ -3,9 +3,12 @@ import 'package:testtrial/robot.dart';
 import 'package:testtrial/yahtzeePrep.dart';
 import 'package:testtrial/CalcDeborah.dart';
 import "package:testtrial/blockProvider.dart";
+import "package:testtrial/lightsOut.dart";
+import "package:testtrial/fileStuff.dart";
+import "package:testtrial/Pancake.dart";
 
 void main() {
-  runApp(BlockchainApp());
+  runApp(PancakeSortGame());
 }
 
 class MyApp extends StatelessWidget {
