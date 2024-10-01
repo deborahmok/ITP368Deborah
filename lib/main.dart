@@ -6,9 +6,10 @@ import "package:testtrial/blockProvider.dart";
 import "package:testtrial/lightsOut.dart";
 import "package:testtrial/fileStuff.dart";
 import "package:testtrial/Pancake.dart";
+import "package:testtrial/Routes.dart";
 
 void main() {
-  runApp(PancakeSortGame());
+  runApp(RoutesDemo());
 }
 
 class MyApp extends StatelessWidget {
