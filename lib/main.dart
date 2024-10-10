@@ -7,9 +7,10 @@ import "package:testtrial/lightsOut.dart";
 import "package:testtrial/fileStuff.dart";
 import "package:testtrial/Pancake.dart";
 import "package:testtrial/Splash.dart";
+import "package:testtrial/DealMok.dart";
 
 void main() {
-  runApp(RoutesDemo());
+  runApp(DealMok());
 }
 
 class MyApp extends StatelessWidget {
