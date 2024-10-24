@@ -10,10 +10,11 @@ import "package:testtrial/Splash.dart";
 import "package:testtrial/DealMok.dart";
 import "package:testtrial/GroceryFile.dart";
 import "package:testtrial/midtermFile.dart";
+import "package:testtrial/WeatherAPI.dart";
 
 
 void main() {
-  runApp(MyAnimal());
+  runApp(WeatherApp());
 }
 
 class MyApp extends StatelessWidget {
