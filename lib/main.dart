@@ -8,9 +8,12 @@ import "package:testtrial/fileStuff.dart";
 import "package:testtrial/Pancake.dart";
 import "package:testtrial/Splash.dart";
 import "package:testtrial/DealMok.dart";
+import "package:testtrial/GroceryFile.dart";
+import "package:testtrial/midtermFile.dart";
+
 
 void main() {
-  runApp(DealMok());
+  runApp(MyAnimal());
 }
 
 class MyApp extends StatelessWidget {
