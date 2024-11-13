@@ -12,10 +12,11 @@ import "package:testtrial/GroceryFile.dart";
 import "package:testtrial/midtermFile.dart";
 import "package:testtrial/WeatherAPI.dart";
 import "package:testtrial/News.dart";
+import "package:testtrial/Recording.dart";
 
 
 void main() {
-  runApp(News());
+  runApp(SoundboardApp());
 }
 
 class MyApp extends StatelessWidget {
