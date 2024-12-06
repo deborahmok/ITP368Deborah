@@ -1,5 +1,3 @@
-// word_list_screen.dart
-
 import 'package:flutter/material.dart';
 import 'wordMain.dart';
 

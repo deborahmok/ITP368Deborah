@@ -1,6 +1,6 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
-import 'wordMain.dart'; // Ensure correct path if main.dart is named differently.
+import 'wordMain.dart';
 
 enum PracticeType { translation, fillInTheBlank }
 
@@ -109,13 +109,13 @@ class _PracticeScreenState extends State<PracticeScreen> {
 
   void _resetPracticeState() {
     setState(() {
-      _selectedPracticeType = null; // Go back to practice selection screen
-      _feedback = '';               // Clear feedback message
-      _isAnswered = false;          // Reset answer status
-      _isCorrect = false;           // Reset correctness
-      _userAnswer = '';             // Clear user input
-      _currentWord = null;          // Clear current word
-      _currentQuestion = null;      // Clear current question
+      _selectedPracticeType = null; // For going back to practice selection screen
+      _feedback = ''; // Clear feedback message
+      _isAnswered = false; // Reset answer status
+      _isCorrect = false; // Reset correctness
+      _userAnswer = ''; // Clear user input
+      _currentWord = null; // Clear current word
+      _currentQuestion = null; // Clear current question
     });
   }
 
